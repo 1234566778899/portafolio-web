@@ -1,0 +1,100 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alt-100 {
+    height: 100vh;
+    background-color: rgb(240, 241, 246);
+}
+
+#proyectos {
+    background-color: rgb(240, 241, 246);
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#habilidades {
+    background-color: rgb(240, 241, 246);
+}
+
+.icono {
+    height: 40px;
+}
+
+.shadow {
+    background-color: white;
+}
+
+.img-habilidad {
+    height: 200px;
+}
+
+.msg {
+    text-align: start;
+}
+
+.bg-negro {
+    background-color: #001e29;
+}
+
+.img-proyectos {
+    height: 80px;
+}
+
+.codigo {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-verde {
+    background-color: rgb(59, 165, 92);
+}
+
+@media screen and (max-width: 576px) {
+    .alt-100 {
+        height: auto;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .espacio {
+        display: none;
+    }
+
+    .web {
+        text-align: center;
+    }
+}
+
+.project {
+    transition: transform 0.5s;
+}
+
+.tecnologia {
+    transition: transform 0.5s
+}
+
+.tecnologia:hover {
+    transform: scale(1.1);
+}
+.habilidad {
+    transition: transform 0.5s
+}
+
+.habilidad:hover {
+    transform: scale(1.05);
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
